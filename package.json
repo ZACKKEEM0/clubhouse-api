@@ -1,0 +1,35 @@
+{
+  "name": "clubhouse-api",
+  "version": "1.0.40",
+  "main": "src/index.js",
+  "author": "Seia-Soto <seia@outlook.kr>",
+  "license": "MIT",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "lint": "eslint --ext .js,.d.ts .",
+    "example": "node example",
+    "profile": "node scripts/profile"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.19.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "debug": "^4.3.1",
+    "esm": "^3.2.25",
+    "form-data": "^3.0.0",
+    "nanoid": "^3.1.20",
+    "qs": "^6.9.6",
+    "uuid": "^8.3.2"
+  }
+}
