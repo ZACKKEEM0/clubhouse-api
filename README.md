@@ -1,4 +1,4 @@
-# Seia-Soto/Clubhouse-API
+# ZACKKEEMO/Clubhouse-API
 
 The API wrapper for Clubhouse application (drop-in audio chat) based on online private API documentation and pwned sources by myself.
 
